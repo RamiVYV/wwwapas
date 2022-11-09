@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <link rel="shortcut icon" href="./asset/img/img-servicios.png" type="image/x-icon">
+    <title>wwwwapas</title>
+</head>
+<body>
+    <div class="main__top__page">
+    <header class="main__header">
+        <h1 class="main__header__tiltle" id="home">wwwwapas</h1>
+    </header>
+
+    <nav class="main__nav">
+        <ul class="main__nav__list">
+            <li class="main__nav__list__item"><a href="#contactos">Login</a></li>
+            <li class="main__nav__list__item"><a href="#servicios">Servicios</a></li>
+            <li class="main__nav__list__item"><a href="#contactos">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+<section class="first__section">
+    <div class="first__section__description">
+
+            <h2 class="main__body__title--uno">somos <br><span class="span__wapas"> wwwapas</span></h2>
+            <h2 class="main__body__title--dos">social media managers | creadoras de contenido</h2>
+            <p class="main__body__item">Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio. <span>¡Creamos relaciones estables y duraderas con tus clientes!</span></p>
+    </div>
+    <div class="first__section__img">
+            <img src="./asset/img/foto.png" alt="foto__wapas" class="first__section__img__july">
+    </div>
+</section>
+
+<section class="second__section">
+    <div class="second__section__description">
+        <h2 class="main__body__title--tres">¡Hola! Somos SOFI & JULIA,</h2>
+        <p class="main__body__item">Las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu marca. ¡Somos el complemento que necesitás para hacer crecer tu marca!<span>¡Somos wwwapas!</span></p>
+    </div>
+    <div class="second__section__description">
+        <h2 class="main__body__title--tres">GESTIONAMOS TUS REDES SOCIALES</h2>
+        <p class="main__body__item">La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto antes y aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto. <span>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</span></p>
+    </div>    
+</section>
+
+<hr>
+<section class="thrid__section">
+    <div class="thrid__section__service">
+        <img src="./asset/img/img-servicios.png" alt="Servicios" class="thrid__section__service--img">
+
+    </div>
+    <div class="thrid__section__service">
+        <h2 class="main__body__title">
+            Servicios</h2><a href="#home" id="servicios" class="linkVuelta">Inicio</a>
+        <ol class="main__body__list">
+            <li class="ol__main__body__list">Análisis de perfil (Benchmarking)</li>
+            <li class="ol main__body__list">Revisión y activación de canales</li>
+            <li class="ol main__body__list">
+                Gestión, creación y diseño de contenido</li>
+            <li class="ol main__body__list">
+                Repuestas a mensajes y consultas</li>
+            <li class="ol main__body__list">Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
+            <li class="ol main__body__list">
+                Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+            <li id="resaltado" class="ol main__body__list">¡Empezamos a comunicar!</li>
+        </ol>
+        
+    </div>
+</section>
+
+<section class="forth__section">
+    <div class="forth__section__contact">
+        <h2 class="main__body__title__contact">¿Quéres que nos contactemos con vos?</h2>
+        <p class="main__body__item__sub">Envianos tu consulta >></p>
+        <a href="#home" class="linkVuelta" id="contactos">Inicio</a>
+    </div>
+    <div class="forth__section__form">
+        <form action="asset/php/form.php" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre<span class="redSpan">*</span></label>
+            <input type="text" id="nombre" required minlength="3" maxlength="10">
+            <label for="email">Email <span class="redSpan">*</span>  </label>
+            <input type="email" name="email" id="email" required minlength="2" maxlength="15">
+            <label for="mensajes">Mensaje<span class="redSpan">*</span></label>
+            <textarea name="mensajes" id="mensajes" cols="15" rows="5"></textarea>
+            <div class="main__buttom">
+                <input type="submit" value="Enviar Consulta" id="botones">
+                <input type="reset" value="Borrar" id="botones">
+            </div>
+        </form>
+    </div>
+</section>
+<section class="socialNetwork">
+    <p>
+        Redes <br> WWW
+    </p>
+    <img src="./asset/img/instagram-icon.png" alt="instagram" id="img__social__network">
+    <img src="./asset/img/dribbble-icon.png" alt="dribble"id="img__social__network">
+    <img src="./asset/img/facebook-icon.png" alt="facebook"id="img__social__network">
+    <img src="./asset/img/linkedin-icon.png" alt="linkedin"id="img__social__network" id="img__social__network">
+</section>
+
+  <footer class="main__footer">
+    <h1 class="main__footer__title">WWWAPAS</h1>
+    <a href="mailto:wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>
+  </footer>
+</body>
+</html>
